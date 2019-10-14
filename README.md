@@ -39,6 +39,7 @@ Web Server: OS yang digunakan yaitu bento/ubuntu-16.04.
 6. atur masing-masing ```my.cnf``` dari database dan isikan seperti file ```my1*.cnf``` yang nanti akan kita copy menuju file /etc/mysql/my.cnf
 
 ![](gambar/loosegrouprepliandmulti.png)
+
 jangan lupa untuk mematikan single primary mode jika ingin menggunakan group replication.
 
 7. pada salah satu db kita masukkan file ```addition_to_sys.sql``` , ```cluster_bootstrap.sql``` , ```create_proxysql_user``` 
