@@ -38,7 +38,7 @@ Web Server: OS yang digunakan yaitu bento/ubuntu-16.04.
 5. buat juga sebuah file proxy seperti pada file ```deployProxy.sh``` yang nanti juga akan di provisi oleh vagrant file
 6. atur masing-masing ```my.cnf``` dari database dan isikan seperti file ```my1*.cnf``` yang nanti akan kita copy menuju file /etc/mysql/my.cnf
 
-![gambar](loosegrouprepliandmulti.png)
+![](gambar/loosegrouprepliandmulti.PNG)
 
 jangan lupa untuk mematikan single primary mode jika ingin menggunakan group replication.
 
