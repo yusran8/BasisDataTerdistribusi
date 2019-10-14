@@ -43,3 +43,5 @@ jangan lupa untuk mematikan single primary mode jika ingin menggunakan group rep
 
 7. pada salah satu db kita masukkan file ```addition_to_sys.sql``` , ```cluster_bootstrap.sql``` , ```create_proxysql_user``` 
 8. pada dua db lain masukkan file ```cluster_member.sql```
+
+9. kemudian kita coba apakah group replication sudah berjalan.
